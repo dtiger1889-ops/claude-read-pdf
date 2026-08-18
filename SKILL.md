@@ -44,7 +44,7 @@ environment, or install a poppler release and use the full path to the exe.
 
 | Producer (from pdfinfo) | Source | Artifacts |
 |---|---|---|
-| cairo (Mozilla Firefox) | Firefox / Firefox mobile | Repeated per-page header/footer: title, URL, `N of M`, timestamp. Bonus: the source URL is IN the header text. |
+| cairo (Mozilla Firefox) | Firefox / Firefox mobile | Repeated per-page header/footer: title, URL, `N of M`, timestamp. Bonus: the source URL is IN the header text. On Reddit, comment USERNAMES are dropped entirely (a bare replacement char before the timestamp) -- comment text survives but is unattributable; Chromium/Skia prints keep usernames. |
 | Skia/PDF (Chrome UA) | Brave / Chrome mobile | Occasional interleaved overlay text -- e.g. "Skip to main content" woven letter-by-letter into a body line. Meaning stays recoverable; don't re-extract. |
 
 ## Reddit prints specifically
