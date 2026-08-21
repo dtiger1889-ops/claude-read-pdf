@@ -1,4 +1,4 @@
-# claude-read-pdf
+# read-pdf
 
 A Claude Code skill for reading PDFs at ~10-25x fewer tokens than letting the
 agent open them visually. Built for the "phone browser -> Print to PDF -> drop
